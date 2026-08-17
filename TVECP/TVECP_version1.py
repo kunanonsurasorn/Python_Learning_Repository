@@ -18,7 +18,7 @@ def floordivision(n1,n2):
     result = n1//n2
     return result
 
-def exponentialtion(n1,n2):
+def exponentiation(n1,n2):
     result = n1**n2
     return result
 
@@ -52,7 +52,7 @@ def main_operator(number_1,number_2,operator):
         result = floordivision(number_1,number_2)
         print(f"The result of {number_1} // {number_2} is {result}")
     elif operator == "**":
-        result = exponentialtion(number_1,number_2)
+        result = exponentiation(number_1,number_2)
         print(f"The result of {number_1} ** {number_2} is {result}")
     elif operator == "%":
         result = modulo(number_1,number_2)
